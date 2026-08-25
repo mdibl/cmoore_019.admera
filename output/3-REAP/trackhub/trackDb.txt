@@ -1,0 +1,2088 @@
+##############################################
+# Composite: All aligned reads
+##############################################
+track mapped
+compositeTrack on
+priority 1.0
+shortLabel mapped
+longLabel All aligned reads
+type bigWig
+visibility full
+subGroup1 condition condition Control=Control Treatment=Treatment
+subGroup2 day day day3=day3 day5=day5
+subGroup3 strand strand mi=Mirror plus=Plus minus=Minus
+sortOrder condition=+ day=+ strand=+
+dimensionX condition
+dimensionY day
+dragAndDrop subtracks
+
+track mapped_Control_3day_rep1_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_3day_rep1.mapped_read.bw
+shortLabel C_3d_r1_mi
+longLabel Control 3day rep1 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep2_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_3day_rep2.mapped_read.bw
+shortLabel C_3d_r2_mi
+longLabel Control 3day rep2 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep3_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_3day_rep3.mapped_read.bw
+shortLabel C_3d_r3_mi
+longLabel Control 3day rep3 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep1_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_5day_rep1.mapped_read.bw
+shortLabel C_5d_r1_mi
+longLabel Control 5day rep1 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep2_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_5day_rep2.mapped_read.bw
+shortLabel C_5d_r2_mi
+longLabel Control 5day rep2 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep3_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Control_5day_rep3.mapped_read.bw
+shortLabel C_5d_r3_mi
+longLabel Control 5day rep3 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep1_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_3day_rep1.mapped_read.bw
+shortLabel T_3d_r1_mi
+longLabel Treatment 3day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep2_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_3day_rep2.mapped_read.bw
+shortLabel T_3d_r2_mi
+longLabel Treatment 3day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep3_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_3day_rep3.mapped_read.bw
+shortLabel T_3d_r3_mi
+longLabel Treatment 3day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep1_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_5day_rep1.mapped_read.bw
+shortLabel T_5d_r1_mi
+longLabel Treatment 5day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep2_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_5day_rep2.mapped_read.bw
+shortLabel T_5d_r2_mi
+longLabel Treatment 5day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep3_mi
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/mi.Treatment_5day_rep3.mapped_read.bw
+shortLabel T_5d_r3_mi
+longLabel Treatment 5day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep1_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_3day_rep1.mapped_read.bw
+shortLabel C_3d_r1_minus
+longLabel Control 3day rep1 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep2_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_3day_rep2.mapped_read.bw
+shortLabel C_3d_r2_minus
+longLabel Control 3day rep2 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep3_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_3day_rep3.mapped_read.bw
+shortLabel C_3d_r3_minus
+longLabel Control 3day rep3 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep1_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_5day_rep1.mapped_read.bw
+shortLabel C_5d_r1_minus
+longLabel Control 5day rep1 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep2_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_5day_rep2.mapped_read.bw
+shortLabel C_5d_r2_minus
+longLabel Control 5day rep2 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep3_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Control_5day_rep3.mapped_read.bw
+shortLabel C_5d_r3_minus
+longLabel Control 5day rep3 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep1_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_3day_rep1.mapped_read.bw
+shortLabel T_3d_r1_minus
+longLabel Treatment 3day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep2_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_3day_rep2.mapped_read.bw
+shortLabel T_3d_r2_minus
+longLabel Treatment 3day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep3_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_3day_rep3.mapped_read.bw
+shortLabel T_3d_r3_minus
+longLabel Treatment 3day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep1_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_5day_rep1.mapped_read.bw
+shortLabel T_5d_r1_minus
+longLabel Treatment 5day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep2_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_5day_rep2.mapped_read.bw
+shortLabel T_5d_r2_minus
+longLabel Treatment 5day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep3_minus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/minus.Treatment_5day_rep3.mapped_read.bw
+shortLabel T_5d_r3_minus
+longLabel Treatment 5day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep1_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_3day_rep1.mapped_read.bw
+shortLabel C_3d_r1_plus
+longLabel Control 3day rep1 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep2_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_3day_rep2.mapped_read.bw
+shortLabel C_3d_r2_plus
+longLabel Control 3day rep2 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_3day_rep3_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_3day_rep3.mapped_read.bw
+shortLabel C_3d_r3_plus
+longLabel Control 3day rep3 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep1_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_5day_rep1.mapped_read.bw
+shortLabel C_5d_r1_plus
+longLabel Control 5day rep1 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep2_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_5day_rep2.mapped_read.bw
+shortLabel C_5d_r2_plus
+longLabel Control 5day rep2 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Control_5day_rep3_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Control_5day_rep3.mapped_read.bw
+shortLabel C_5d_r3_plus
+longLabel Control 5day rep3 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep1_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_3day_rep1.mapped_read.bw
+shortLabel T_3d_r1_plus
+longLabel Treatment 3day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep2_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_3day_rep2.mapped_read.bw
+shortLabel T_3d_r2_plus
+longLabel Treatment 3day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_3day_rep3_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_3day_rep3.mapped_read.bw
+shortLabel T_3d_r3_plus
+longLabel Treatment 3day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep1_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_5day_rep1.mapped_read.bw
+shortLabel T_5d_r1_plus
+longLabel Treatment 5day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep2_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_5day_rep2.mapped_read.bw
+shortLabel T_5d_r2_plus
+longLabel Treatment 5day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+track mapped_Treatment_5day_rep3_plus
+parent mapped
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/mapped_read/plus.Treatment_5day_rep3.mapped_read.bw
+shortLabel T_5d_r3_plus
+longLabel Treatment 5day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 128,128,128
+
+##############################################
+# Composite: PASS reads
+##############################################
+track PASSreads
+compositeTrack on
+priority 2.0
+shortLabel PASSreads
+longLabel PASS reads
+type bigWig
+visibility full
+subGroup1 condition condition Control=Control Treatment=Treatment
+subGroup2 day day day3=day3 day5=day5
+subGroup3 strand strand mi=Mirror plus=Plus minus=Minus
+sortOrder condition=+ day=+ strand=+
+dimensionX condition
+dimensionY day
+dragAndDrop subtracks
+
+track PASSreads_Control_3day_rep1_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_3day_rep1.PASS_bw_LAP24.bw
+shortLabel C_3d_r1_mi
+longLabel Control 3day rep1 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep2_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_3day_rep2.PASS_bw_LAP24.bw
+shortLabel C_3d_r2_mi
+longLabel Control 3day rep2 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep3_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_3day_rep3.PASS_bw_LAP24.bw
+shortLabel C_3d_r3_mi
+longLabel Control 3day rep3 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep1_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_5day_rep1.PASS_bw_LAP24.bw
+shortLabel C_5d_r1_mi
+longLabel Control 5day rep1 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep2_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_5day_rep2.PASS_bw_LAP24.bw
+shortLabel C_5d_r2_mi
+longLabel Control 5day rep2 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep3_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Control_5day_rep3.PASS_bw_LAP24.bw
+shortLabel C_5d_r3_mi
+longLabel Control 5day rep3 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep1_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_3day_rep1.PASS_bw_LAP24.bw
+shortLabel T_3d_r1_mi
+longLabel Treatment 3day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep2_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_3day_rep2.PASS_bw_LAP24.bw
+shortLabel T_3d_r2_mi
+longLabel Treatment 3day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep3_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_3day_rep3.PASS_bw_LAP24.bw
+shortLabel T_3d_r3_mi
+longLabel Treatment 3day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep1_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_5day_rep1.PASS_bw_LAP24.bw
+shortLabel T_5d_r1_mi
+longLabel Treatment 5day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep2_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_5day_rep2.PASS_bw_LAP24.bw
+shortLabel T_5d_r2_mi
+longLabel Treatment 5day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep3_mi
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/mi.Treatment_5day_rep3.PASS_bw_LAP24.bw
+shortLabel T_5d_r3_mi
+longLabel Treatment 5day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep1_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_3day_rep1.PASS_bw_LAP24.bw
+shortLabel C_3d_r1_minus
+longLabel Control 3day rep1 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep2_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_3day_rep2.PASS_bw_LAP24.bw
+shortLabel C_3d_r2_minus
+longLabel Control 3day rep2 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep3_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_3day_rep3.PASS_bw_LAP24.bw
+shortLabel C_3d_r3_minus
+longLabel Control 3day rep3 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep1_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_5day_rep1.PASS_bw_LAP24.bw
+shortLabel C_5d_r1_minus
+longLabel Control 5day rep1 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep2_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_5day_rep2.PASS_bw_LAP24.bw
+shortLabel C_5d_r2_minus
+longLabel Control 5day rep2 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep3_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Control_5day_rep3.PASS_bw_LAP24.bw
+shortLabel C_5d_r3_minus
+longLabel Control 5day rep3 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep1_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_3day_rep1.PASS_bw_LAP24.bw
+shortLabel T_3d_r1_minus
+longLabel Treatment 3day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep2_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_3day_rep2.PASS_bw_LAP24.bw
+shortLabel T_3d_r2_minus
+longLabel Treatment 3day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep3_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_3day_rep3.PASS_bw_LAP24.bw
+shortLabel T_3d_r3_minus
+longLabel Treatment 3day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep1_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_5day_rep1.PASS_bw_LAP24.bw
+shortLabel T_5d_r1_minus
+longLabel Treatment 5day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep2_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_5day_rep2.PASS_bw_LAP24.bw
+shortLabel T_5d_r2_minus
+longLabel Treatment 5day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep3_minus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/minus.Treatment_5day_rep3.PASS_bw_LAP24.bw
+shortLabel T_5d_r3_minus
+longLabel Treatment 5day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep1_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_3day_rep1.PASS_bw_LAP24.bw
+shortLabel C_3d_r1_plus
+longLabel Control 3day rep1 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep2_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_3day_rep2.PASS_bw_LAP24.bw
+shortLabel C_3d_r2_plus
+longLabel Control 3day rep2 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_3day_rep3_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_3day_rep3.PASS_bw_LAP24.bw
+shortLabel C_3d_r3_plus
+longLabel Control 3day rep3 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep1_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_5day_rep1.PASS_bw_LAP24.bw
+shortLabel C_5d_r1_plus
+longLabel Control 5day rep1 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep2_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_5day_rep2.PASS_bw_LAP24.bw
+shortLabel C_5d_r2_plus
+longLabel Control 5day rep2 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Control_5day_rep3_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Control_5day_rep3.PASS_bw_LAP24.bw
+shortLabel C_5d_r3_plus
+longLabel Control 5day rep3 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep1_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_3day_rep1.PASS_bw_LAP24.bw
+shortLabel T_3d_r1_plus
+longLabel Treatment 3day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep2_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_3day_rep2.PASS_bw_LAP24.bw
+shortLabel T_3d_r2_plus
+longLabel Treatment 3day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_3day_rep3_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_3day_rep3.PASS_bw_LAP24.bw
+shortLabel T_3d_r3_plus
+longLabel Treatment 3day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep1_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_5day_rep1.PASS_bw_LAP24.bw
+shortLabel T_5d_r1_plus
+longLabel Treatment 5day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep2_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_5day_rep2.PASS_bw_LAP24.bw
+shortLabel T_5d_r2_plus
+longLabel Treatment 5day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+track PASSreads_Treatment_5day_rep3_plus
+parent PASSreads
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24/plus.Treatment_5day_rep3.PASS_bw_LAP24.bw
+shortLabel T_5d_r3_plus
+longLabel Treatment 5day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,255
+
+##############################################
+# Composite: PASS LAPs
+##############################################
+track LAPs
+compositeTrack on
+priority 3.0
+shortLabel LAPs
+longLabel PASS LAPs
+type bigWig
+visibility full
+subGroup1 condition condition Control=Control Treatment=Treatment
+subGroup2 day day day3=day3 day5=day5
+subGroup3 strand strand mi=Mirror plus=Plus minus=Minus
+sortOrder condition=+ day=+ strand=+
+dimensionX condition
+dimensionY day
+dragAndDrop subtracks
+
+track LAPs_Control_3day_rep1_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r1_mi
+longLabel Control 3day rep1 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep2_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r2_mi
+longLabel Control 3day rep2 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep3_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r3_mi
+longLabel Control 3day rep3 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep1_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r1_mi
+longLabel Control 5day rep1 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep2_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r2_mi
+longLabel Control 5day rep2 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep3_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Control_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r3_mi
+longLabel Control 5day rep3 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep1_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r1_mi
+longLabel Treatment 3day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep2_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r2_mi
+longLabel Treatment 3day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep3_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r3_mi
+longLabel Treatment 3day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep1_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r1_mi
+longLabel Treatment 5day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep2_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r2_mi
+longLabel Treatment 5day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep3_mi
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/mi.Treatment_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r3_mi
+longLabel Treatment 5day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep1_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r1_minus
+longLabel Control 3day rep1 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep2_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r2_minus
+longLabel Control 3day rep2 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep3_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r3_minus
+longLabel Control 3day rep3 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep1_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r1_minus
+longLabel Control 5day rep1 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep2_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r2_minus
+longLabel Control 5day rep2 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep3_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Control_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r3_minus
+longLabel Control 5day rep3 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep1_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r1_minus
+longLabel Treatment 3day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep2_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r2_minus
+longLabel Treatment 3day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep3_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r3_minus
+longLabel Treatment 3day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep1_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r1_minus
+longLabel Treatment 5day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep2_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r2_minus
+longLabel Treatment 5day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep3_minus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/minus.Treatment_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r3_minus
+longLabel Treatment 5day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep1_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r1_plus
+longLabel Control 3day rep1 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep2_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r2_plus
+longLabel Control 3day rep2 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_3day_rep3_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_3d_r3_plus
+longLabel Control 3day rep3 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep1_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r1_plus
+longLabel Control 5day rep1 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep2_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r2_plus
+longLabel Control 5day rep2 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Control_5day_rep3_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Control_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel C_5d_r3_plus
+longLabel Control 5day rep3 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep1_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_3day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r1_plus
+longLabel Treatment 3day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep2_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_3day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r2_plus
+longLabel Treatment 3day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_3day_rep3_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_3day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_3d_r3_plus
+longLabel Treatment 3day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep1_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_5day_rep1.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r1_plus
+longLabel Treatment 5day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep2_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_5day_rep2.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r2_plus
+longLabel Treatment 5day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+track LAPs_Treatment_5day_rep3_plus
+parent LAPs
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_positon/plus.Treatment_5day_rep3.PASS_bw_LAP24_positon.bw
+shortLabel T_5d_r3_plus
+longLabel Treatment 5day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility full
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 60,60,180
+
+##############################################
+# Composite: Detected PASs
+##############################################
+track PAS
+compositeTrack on
+priority 4.0
+shortLabel PAS
+longLabel Detected PASs
+type bigWig
+visibility dense
+subGroup1 condition condition Control=Control Treatment=Treatment
+subGroup2 day day day3=day3 day5=day5
+subGroup3 strand strand mi=Mirror plus=Plus minus=Minus
+sortOrder condition=+ day=+ strand=+
+dimensionX condition
+dimensionY day
+dragAndDrop subtracks
+
+track PAS_Control_3day_rep1_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r1_mi
+longLabel Control 3day rep1 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep2_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r2_mi
+longLabel Control 3day rep2 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep3_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r3_mi
+longLabel Control 3day rep3 mi
+type bigWig
+subGroups condition=Control day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep1_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r1_mi
+longLabel Control 5day rep1 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep2_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r2_mi
+longLabel Control 5day rep2 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep3_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Control_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r3_mi
+longLabel Control 5day rep3 mi
+type bigWig
+subGroups condition=Control day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep1_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r1_mi
+longLabel Treatment 3day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep2_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r2_mi
+longLabel Treatment 3day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep3_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r3_mi
+longLabel Treatment 3day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day3 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep1_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r1_mi
+longLabel Treatment 5day rep1 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep2_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r2_mi
+longLabel Treatment 5day rep2 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep3_mi
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/mi.Treatment_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r3_mi
+longLabel Treatment 5day rep3 mi
+type bigWig
+subGroups condition=Treatment day=day5 strand=mi
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep1_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r1_minus
+longLabel Control 3day rep1 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep2_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r2_minus
+longLabel Control 3day rep2 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep3_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r3_minus
+longLabel Control 3day rep3 minus
+type bigWig
+subGroups condition=Control day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep1_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r1_minus
+longLabel Control 5day rep1 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep2_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r2_minus
+longLabel Control 5day rep2 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep3_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Control_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r3_minus
+longLabel Control 5day rep3 minus
+type bigWig
+subGroups condition=Control day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep1_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r1_minus
+longLabel Treatment 3day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep2_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r2_minus
+longLabel Treatment 3day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep3_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r3_minus
+longLabel Treatment 3day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day3 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep1_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r1_minus
+longLabel Treatment 5day rep1 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep2_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r2_minus
+longLabel Treatment 5day rep2 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep3_minus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/minus.Treatment_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r3_minus
+longLabel Treatment 5day rep3 minus
+type bigWig
+subGroups condition=Treatment day=day5 strand=minus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep1_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r1_plus
+longLabel Control 3day rep1 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep2_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r2_plus
+longLabel Control 3day rep2 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_3day_rep3_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_3d_r3_plus
+longLabel Control 3day rep3 plus
+type bigWig
+subGroups condition=Control day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep1_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r1_plus
+longLabel Control 5day rep1 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep2_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r2_plus
+longLabel Control 5day rep2 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Control_5day_rep3_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Control_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel C_5d_r3_plus
+longLabel Control 5day rep3 plus
+type bigWig
+subGroups condition=Control day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep1_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_3day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r1_plus
+longLabel Treatment 3day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep2_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_3day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r2_plus
+longLabel Treatment 3day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_3day_rep3_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_3day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_3d_r3_plus
+longLabel Treatment 3day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day3 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep1_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_5day_rep1.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r1_plus
+longLabel Treatment 5day rep1 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep2_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_5day_rep2.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r2_plus
+longLabel Treatment 5day rep2 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+
+track PAS_Treatment_5day_rep3_plus
+parent PAS
+bigDataUrl http://3.83.106.170/3REAP_hub/hg38/PASS_bw_LAP24_PAS/plus.Treatment_5day_rep3.PASS_bw_LAP24_PAS.bw
+shortLabel T_5d_r3_plus
+longLabel Treatment 5day rep3 plus
+type bigWig
+subGroups condition=Treatment day=day5 strand=plus
+visibility dense
+alwaysZero on
+autoScale on
+graphTypeDefault bar
+maxHeightPixels 120:80:40
+color 220,0,0
+

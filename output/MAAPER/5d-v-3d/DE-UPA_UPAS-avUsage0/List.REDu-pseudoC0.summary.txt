@@ -1,0 +1,14 @@
+Treat5d.vs.Treat3d:
+
+Lengthened         NO  Shortened 
+      2527       5017       2001 
+
+Lengthened         NO  Shortened 
+      2331       5405       1809 
+Ctrl5d.vs.Ctrl3d:
+
+Lengthened         NO  Shortened 
+      2299       5587       1630 
+
+Lengthened         NO  Shortened 
+      1938       6256       1322 

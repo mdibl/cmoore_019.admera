@@ -1,0 +1,15 @@
+Treat3d.vs.Ctrl3d:
+
+IPAS_decreased IPAS_increased             NO 
+           724            437           1062 
+
+IPAS_decreased IPAS_increased             NO 
+           638            369           1216 
+
+Treat5d.vs.Ctrl5d:
+
+IPAS_decreased IPAS_increased             NO 
+           738            500           1035 
+
+IPAS_decreased IPAS_increased             NO 
+           707            458           1108 

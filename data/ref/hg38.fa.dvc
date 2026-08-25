@@ -1,0 +1,5 @@
+outs:
+- md5: b2aee9f885accc00531e59c4736bee63
+  size: 3273481150
+  hash: md5
+  path: hg38.fa

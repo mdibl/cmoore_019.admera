@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<rect x='0.00' y='0.00' width='720.00' height='576.00' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDAuOTZ8NjQ0LjcwfDIzLjE4fDQ3Ni42OA=='>
+    <rect x='40.96' y='23.18' width='603.74' height='453.50' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDAuOTZ8NjQ0LjcwfDIzLjE4fDQ3Ni42OA==)'>
+<polyline points='40.96,476.68 644.70,476.68 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='40.96,356.45 644.70,356.45 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='40.96,236.22 644.70,236.22 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='40.96,115.99 644.70,115.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='127.20,476.68 127.20,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='270.95,476.68 270.95,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='414.70,476.68 414.70,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='558.45,476.68 558.45,23.18 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='71.50' y='140.76' width='53.91' height='335.91' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8766D;' />
+<rect x='129.00' y='44.77' width='53.91' height='431.90' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #00BFC4;' />
+<rect x='215.25' y='473.89' width='53.91' height='2.78' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8766D;' />
+<rect x='272.75' y='476.68' width='53.91' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #00BFC4;' />
+<rect x='359.00' y='476.68' width='53.91' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8766D;' />
+<rect x='416.50' y='476.68' width='53.91' height='0.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #00BFC4;' />
+<rect x='502.75' y='214.23' width='53.91' height='262.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8766D;' />
+<rect x='560.24' y='307.44' width='53.91' height='169.24' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #00BFC4;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='36.02' y='479.83' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='12.72px' lengthAdjust='spacingAndGlyphs'>0%</text>
+<text x='36.02' y='359.60' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.61px' lengthAdjust='spacingAndGlyphs'>20%</text>
+<text x='36.02' y='239.37' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.61px' lengthAdjust='spacingAndGlyphs'>40%</text>
+<text x='36.02' y='119.14' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.61px' lengthAdjust='spacingAndGlyphs'>60%</text>
+<text transform='translate(131.66,486.06) rotate(-45)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='70.48px' lengthAdjust='spacingAndGlyphs'>chr11;94546605;+</text>
+<text transform='translate(275.41,486.06) rotate(-45)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='70.48px' lengthAdjust='spacingAndGlyphs'>chr11;94546837;+</text>
+<text transform='translate(419.15,486.06) rotate(-45)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='70.48px' lengthAdjust='spacingAndGlyphs'>chr11;94547679;+</text>
+<text transform='translate(562.90,486.06) rotate(-45)' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='99.30px' lengthAdjust='spacingAndGlyphs'>chr11;94549895;+ (distal)</text>
+<text x='342.83' y='568.20' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='21.22px' lengthAdjust='spacingAndGlyphs'>PAS</text>
+<text transform='translate(13.36,249.93) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='201.75px' lengthAdjust='spacingAndGlyphs'>Mean usage (fraction of gene PAS reads)</text>
+<text x='661.13' y='233.85' style='font-size: 11.00px; font-family: "Arial";' textLength='47.91px' lengthAdjust='spacingAndGlyphs'>Timepoint</text>
+<rect x='661.84' y='241.19' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #F8766D;' />
+<rect x='661.84' y='258.47' width='15.86' height='15.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #00BFC4;' />
+<text x='683.89' y='252.27' style='font-size: 8.80px; font-family: "Arial";' textLength='19.08px' lengthAdjust='spacingAndGlyphs'>day3</text>
+<text x='683.89' y='269.55' style='font-size: 8.80px; font-family: "Arial";' textLength='19.08px' lengthAdjust='spacingAndGlyphs'>day5</text>
+<text x='40.96' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='478.59px' lengthAdjust='spacingAndGlyphs'>Relative PAS usage (mean across replicates): FUT4 — 5day vs 3day, in treatment</text>
+</g>
+</g>
+</svg>

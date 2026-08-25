@@ -1,0 +1,6 @@
+outs:
+- md5: 78a095e84622646280a23838b21cc6fb
+  size: 27996084
+  isexec: true
+  hash: md5
+  path: mi.Treatment_5day_rep3.mapped_read.bw

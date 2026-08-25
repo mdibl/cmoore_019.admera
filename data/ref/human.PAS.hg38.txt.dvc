@@ -1,0 +1,6 @@
+outs:
+- md5: 064f47564ce5ed8d04b68e7bfb46141e
+  size: 42858480
+  isexec: true
+  hash: md5
+  path: human.PAS.hg38.txt

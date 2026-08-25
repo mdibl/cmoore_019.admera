@@ -1,0 +1,6 @@
+outs:
+- md5: 0a3261b556cdd21f525025ad984e2fdc
+  size: 28005085
+  isexec: true
+  hash: md5
+  path: minus.Treatment_5day_rep3.mapped_read.bw

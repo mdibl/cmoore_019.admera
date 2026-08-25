@@ -1,0 +1,13 @@
+sample,fastq_1,fastq_2,strandedness
+Control_3day_rep1,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-01_S54_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-01_S54_L003_R2_001.fastq.gz,auto
+Control_3day_rep2,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-02_S55_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-02_S55_L003_R2_001.fastq.gz,auto
+Control_3day_rep3,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-03_S56_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-03_S56_L003_R2_001.fastq.gz,auto
+Control_5day_rep1,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-04_S57_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-04_S57_L003_R2_001.fastq.gz,auto
+Control_5day_rep2,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-05_S58_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-05_S58_L003_R2_001.fastq.gz,auto
+Control_5day_rep3,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-06_S59_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-06_S59_L003_R2_001.fastq.gz,auto
+Treatment_3day_rep1,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-07_S60_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-07_S60_L003_R2_001.fastq.gz,auto
+Treatment_3day_rep2,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-08_S61_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-08_S61_L003_R2_001.fastq.gz,auto
+Treatment_3day_rep3,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-09_S62_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-09_S62_L003_R2_001.fastq.gz,auto
+Treatment_5day_rep1,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-10_S63_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-10_S63_L003_R2_001.fastq.gz,auto
+Treatment_5day_rep2,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-11_S64_L003_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-11_S64_L003_R2_001.fastq.gz,auto
+Treatment_5day_rep3,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-12_S138_L008_R1_001.fastq.gz,/mdibl-data/ClaireMoore/cmoore_019.admera/22166R-07-12_S138_L008_R2_001.fastq.gz,auto
