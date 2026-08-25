@@ -1,0 +1,66 @@
+Starting 3-REAP pipeline...
+Step 2: Adapter and polyA/polyT trimming
+Skipping Control_3day_rep1 read 1 (already trimmed)
+Skipping Control_3day_rep2 read 1 (already trimmed)
+Skipping Control_3day_rep3 read 1 (already trimmed)
+Skipping Control_5day_rep1 read 1 (already trimmed)
+Skipping Control_5day_rep3 read 1 (already trimmed)
+Skipping Control_5day_rep2 read 1 (already trimmed)
+Skipping Treatment_3day_rep1 read 1 (already trimmed)
+Skipping Treatment_3day_rep2 read 1 (already trimmed)
+Skipping Treatment_3day_rep3 read 1 (already trimmed)
+Skipping Treatment_5day_rep1 read 1 (already trimmed)
+Skipping Treatment_5day_rep2 read 1 (already trimmed)
+Skipping Treatment_5day_rep3 read 1 (already trimmed)
+Skipping Control_3day_rep1 read 2 (already trimmed)
+Skipping Control_3day_rep2 read 2 (already trimmed)
+Skipping Control_3day_rep3 read 2 (already trimmed)
+Skipping Control_5day_rep1 read 2 (already trimmed)
+Skipping Control_5day_rep2 read 2 (already trimmed)
+Skipping Control_5day_rep3 read 2 (already trimmed)
+Skipping Treatment_3day_rep1 read 2 (already trimmed)
+Skipping Treatment_3day_rep2 read 2 (already trimmed)
+Skipping Treatment_3day_rep3 read 2 (already trimmed)
+Skipping Treatment_5day_rep1 read 2 (already trimmed)
+Skipping Treatment_5day_rep3 read 2 (already trimmed)
+Skipping Treatment_5day_rep2 read 2 (already trimmed)
+Step 3: Repair read pairs and align with STAR
+Starting: Control_3day_rep1
+Starting: Control_3day_rep2
+Starting: Control_3day_rep3
+Starting: Control_5day_rep1
+Starting: Control_5day_rep2
+Skipping Control_3day_rep2 (already repaired and aligned)
+Skipping Control_3day_rep1 (already repaired and aligned)
+Skipping Control_5day_rep1 (already repaired and aligned)
+Skipping Control_3day_rep3 (already repaired and aligned)
+Starting: Control_5day_rep3
+Starting: Treatment_3day_rep1
+Starting: Treatment_3day_rep2
+Skipping Control_5day_rep2 (already repaired and aligned)
+Starting: Treatment_3day_rep3
+Skipping Control_5day_rep3 (already repaired and aligned)
+Starting: Treatment_5day_rep1
+Starting: Treatment_5day_rep2
+Skipping Treatment_3day_rep2 (already repaired and aligned)
+Skipping Treatment_3day_rep1 (already repaired and aligned)
+Skipping Treatment_3day_rep3 (already repaired and aligned)
+Starting: Treatment_5day_rep3
+Skipping Treatment_5day_rep1 (already repaired and aligned)
+Skipping Treatment_5day_rep2 (already repaired and aligned)
+Skipping Treatment_5day_rep3 (already repaired and aligned)
+Compiling STAR alignment statistics...
+Step 4: Deduplication
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep1/Control_3day_rep1.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep1/Control_5day_rep1.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep3/Control_3day_rep3.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep2/Control_3day_rep2.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep2/Control_5day_rep2.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep3/Control_5day_rep3.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep1/Treatment_3day_rep1.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep2/Treatment_3day_rep2.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep3/Treatment_3day_rep3.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep1/Treatment_5day_rep1.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep2/Treatment_5day_rep2.dedup.bam': File exists
+ln: failed to create symbolic link '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep3/Treatment_5day_rep3.dedup.bam': File exists
+Step 5: Convert BAM to BED

@@ -1,0 +1,2368 @@
+Starting 3-REAP pipeline...
+Step 2: Adapter and polyA/polyT trimming
+Processing Control_3day_rep1 read 1...
+Processing Control_3day_rep2 read 1...
+Processing Control_3day_rep3 read 1...
+Processing Control_5day_rep1 read 1...
+Processing Control_5day_rep2 read 1...
+Processing Control_5day_rep3 read 1...
+Processing Treatment_3day_rep1 read 1...
+Processing Treatment_3day_rep2 read 1...
+Processing Treatment_3day_rep3 read 1...
+Processing Treatment_5day_rep1 read 1...
+Processing Treatment_5day_rep2 read 1...
+Processing Control_3day_rep1 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-01_S54_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_3day_rep2 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-02_S55_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_3day_rep3 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-03_S56_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_5day_rep1 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-04_S57_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_5day_rep2 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-05_S58_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_5day_rep3 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-06_S59_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep1 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-07_S60_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep2 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-08_S61_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep3 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-09_S62_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_5day_rep1 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-10_S63_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_5day_rep2 read 2...
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-11_S64_L003_R2_001.fastq.gz\r'
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Step 3: Repair read pairs and align with STAR
+java -ea -Xmx111619m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	44564981 reads 		5683273007 bases.
+Result:                 	44564981 reads (100.00%) 	5683273007 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	44564981 reads (100.00%) 	5683273007 bases (100.00%)
+
+Time:                         	196.736 seconds.
+Reads Processed:      44564k 	226.52k reads/sec
+Bases Processed:       5683m 	28.89m bases/sec
+java -ea -Xmx111702m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	34580837 reads 		4404435646 bases.
+Result:                 	34580837 reads (100.00%) 	4404435646 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	34580837 reads (100.00%) 	4404435646 bases (100.00%)
+
+Time:                         	132.694 seconds.
+Reads Processed:      34580k 	260.61k reads/sec
+Bases Processed:       4404m 	33.19m bases/sec
+java -ea -Xmx111706m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	39802681 reads 		5117616143 bases.
+Result:                 	39802681 reads (100.00%) 	5117616143 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	39802681 reads (100.00%) 	5117616143 bases (100.00%)
+
+Time:                         	140.709 seconds.
+Reads Processed:      39802k 	282.87k reads/sec
+Bases Processed:       5117m 	36.37m bases/sec
+java -ea -Xmx111733m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	42851921 reads 		5473282363 bases.
+Result:                 	42851921 reads (100.00%) 	5473282363 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	42851921 reads (100.00%) 	5473282363 bases (100.00%)
+
+Time:                         	184.312 seconds.
+Reads Processed:      42851k 	232.50k reads/sec
+Bases Processed:       5473m 	29.70m bases/sec
+java -ea -Xmx111723m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	48377125 reads 		5868264372 bases.
+Result:                 	48377125 reads (100.00%) 	5868264372 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	48377125 reads (100.00%) 	5868264372 bases (100.00%)
+
+Time:                         	210.463 seconds.
+Reads Processed:      48377k 	229.86k reads/sec
+Bases Processed:       5868m 	27.88m bases/sec
+java -ea -Xmx111702m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	37632823 reads 		4780869715 bases.
+Result:                 	37632823 reads (100.00%) 	4780869715 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	37632823 reads (100.00%) 	4780869715 bases (100.00%)
+
+Time:                         	167.427 seconds.
+Reads Processed:      37632k 	224.77k reads/sec
+Bases Processed:       4780m 	28.55m bases/sec
+java -ea -Xmx111690m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	45348996 reads 		5664907238 bases.
+Result:                 	45348996 reads (100.00%) 	5664907238 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	45348996 reads (100.00%) 	5664907238 bases (100.00%)
+
+Time:                         	174.625 seconds.
+Reads Processed:      45348k 	259.69k reads/sec
+Bases Processed:       5664m 	32.44m bases/sec
+java -ea -Xmx111715m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	36124141 reads 		4579110369 bases.
+Result:                 	36124141 reads (100.00%) 	4579110369 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	36124141 reads (100.00%) 	4579110369 bases (100.00%)
+
+Time:                         	143.231 seconds.
+Reads Processed:      36124k 	252.21k reads/sec
+Bases Processed:       4579m 	31.97m bases/sec
+java -ea -Xmx111803m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	47718136 reads 		6111677628 bases.
+Result:                 	47718136 reads (100.00%) 	6111677628 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	47718136 reads (100.00%) 	6111677628 bases (100.00%)
+
+Time:                         	199.858 seconds.
+Reads Processed:      47718k 	238.76k reads/sec
+Bases Processed:       6111m 	30.58m bases/sec
+java -ea -Xmx111762m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	36425994 reads 		4645704608 bases.
+Result:                 	36425994 reads (100.00%) 	4645704608 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	36425994 reads (100.00%) 	4645704608 bases (100.00%)
+
+Time:                         	147.313 seconds.
+Reads Processed:      36425k 	247.27k reads/sec
+Bases Processed:       4645m 	31.54m bases/sec
+java -ea -Xmx111676m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R2.fastq.gz outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz, out2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R2.fastq.gz, outs=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+
+Input:                  	41865099 reads 		5265652972 bases.
+Result:                 	41865099 reads (100.00%) 	5265652972 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	41865099 reads (100.00%) 	5265652972 bases (100.00%)
+
+Time:                         	152.963 seconds.
+Reads Processed:      41865k 	273.69k reads/sec
+Bases Processed:       5265m 	34.42m bases/sec
+Aligning with STAR...
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep1/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:42:33 ..... started STAR run
+Jul 10 15:42:33 ..... loading genome
+Jul 10 15:46:07 ..... started mapping
+Jul 10 15:46:08 ..... finished mapping
+Jul 10 15:46:10 ..... started sorting BAM
+Jul 10 15:46:10 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep2/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:46:12 ..... started STAR run
+Jul 10 15:46:12 ..... loading genome
+Jul 10 15:46:29 ..... started mapping
+Jul 10 15:46:31 ..... finished mapping
+Jul 10 15:46:33 ..... started sorting BAM
+Jul 10 15:46:33 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep3/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:46:34 ..... started STAR run
+Jul 10 15:46:34 ..... loading genome
+Jul 10 15:46:50 ..... started mapping
+Jul 10 15:46:52 ..... finished mapping
+Jul 10 15:46:54 ..... started sorting BAM
+Jul 10 15:46:54 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep1/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:46:55 ..... started STAR run
+Jul 10 15:46:55 ..... loading genome
+Jul 10 15:47:13 ..... started mapping
+Jul 10 15:47:15 ..... finished mapping
+Jul 10 15:47:17 ..... started sorting BAM
+Jul 10 15:47:17 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep2/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:47:18 ..... started STAR run
+Jul 10 15:47:18 ..... loading genome
+Jul 10 15:47:34 ..... started mapping
+Jul 10 15:47:35 ..... finished mapping
+Jul 10 15:47:37 ..... started sorting BAM
+Jul 10 15:47:37 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep3/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:47:39 ..... started STAR run
+Jul 10 15:47:39 ..... loading genome
+Jul 10 15:47:55 ..... started mapping
+Jul 10 15:47:56 ..... finished mapping
+Jul 10 15:47:58 ..... started sorting BAM
+Jul 10 15:47:58 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep1/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:47:59 ..... started STAR run
+Jul 10 15:47:59 ..... loading genome
+Jul 10 15:48:15 ..... started mapping
+Jul 10 15:48:16 ..... finished mapping
+Jul 10 15:48:18 ..... started sorting BAM
+Jul 10 15:48:18 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep2/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:48:19 ..... started STAR run
+Jul 10 15:48:19 ..... loading genome
+Jul 10 15:48:35 ..... started mapping
+Jul 10 15:48:37 ..... finished mapping
+Jul 10 15:48:38 ..... started sorting BAM
+Jul 10 15:48:38 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep3/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:48:40 ..... started STAR run
+Jul 10 15:48:40 ..... loading genome
+Jul 10 15:48:56 ..... started mapping
+Jul 10 15:48:57 ..... finished mapping
+Jul 10 15:48:59 ..... started sorting BAM
+Jul 10 15:48:59 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_5day_rep1/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:49:01 ..... started STAR run
+Jul 10 15:49:01 ..... loading genome
+Jul 10 15:49:17 ..... started mapping
+Jul 10 15:49:18 ..... finished mapping
+Jul 10 15:49:20 ..... started sorting BAM
+Jul 10 15:49:20 ..... finished successfully
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-sse4.1 --runThreadN 12 --readFilesCommand zcat --genomeDir /compbio/scratch/cnobrega/3_REAP/ref/star_index_hg38 --readFilesIn /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_5day_rep2/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:39:47+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Jul 10 15:49:21 ..... started STAR run
+Jul 10 15:49:21 ..... loading genome
+Jul 10 15:49:37 ..... started mapping
+Jul 10 15:49:39 ..... finished mapping
+Jul 10 15:49:40 ..... started sorting BAM
+Jul 10 15:49:40 ..... finished successfully
+Compiling STAR alignment statistics...
+Step 4: Deduplication
+Step 5: Convert BAM to BED
+wc: '*.sorted.bed': No such file or directory
+Step 6: LAP/PAS analysis
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+mv: cannot stat '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/*cluster.all.reads.csv': No such file or directory
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                            csv                             out 
+                           "./"       "./cluster.all.reads.csv" 
+                        pattern 
+"_cluster\\.all\\.reads\\.csv$" 
+character(0)
+Error in ldf[[1]] : subscript out of bounds
+Calls: colnames -> is.data.frame
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                                                               csv 
+"/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP" 
+                                                               out 
+                                                 "./stats_PAS.csv" 
+                                                           pattern 
+                                                 ".*_stats\\.csv$" 
+character(0)
+Error in ldf[[1]] : subscript out of bounds
+Calls: colnames -> is.data.frame
+Execution halted
+Step 7: Generate bigWig tracks
+Working on PASS_bw_LAP24...
+Working on Control_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Control_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...

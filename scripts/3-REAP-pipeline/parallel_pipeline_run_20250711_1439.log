@@ -1,0 +1,3277 @@
+Starting 3-REAP pipeline...
+Step 2: Adapter and polyA/polyT trimming
+Processing Control_3day_rep1 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-01_S54_L003_R1_001.fastq.gz
+Processing Control_3day_rep2 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-02_S55_L003_R1_001.fastq.gz
+Processing Control_3day_rep3 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-03_S56_L003_R1_001.fastq.gz
+Processing Control_5day_rep1 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-04_S57_L003_R1_001.fastq.gz
+Processing Control_5day_rep2 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-05_S58_L003_R1_001.fastq.gz
+Processing Control_5day_rep3 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-06_S59_L003_R1_001.fastq.gz
+Processing Treatment_3day_rep1 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-07_S60_L003_R1_001.fastq.gz
+Processing Treatment_3day_rep2 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-08_S61_L003_R1_001.fastq.gz
+Processing Treatment_3day_rep3 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-09_S62_L003_R1_001.fastq.gz
+Processing Treatment_5day_rep1 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-10_S63_L003_R1_001.fastq.gz
+Processing Treatment_5day_rep2 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-11_S64_L003_R1_001.fastq.gz
+Processing Treatment_5day_rep3 read 1...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-12_S138_L008_R1_001.fastq.gz
+Processing Control_3day_rep1 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-01_S54_L003_R2_001.fastq.gz
+Processing Control_3day_rep2 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-02_S55_L003_R2_001.fastq.gz
+Processing Control_3day_rep3 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-03_S56_L003_R2_001.fastq.gz
+Processing Control_5day_rep1 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-04_S57_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz...
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz...
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz...
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz...
+Processed 34785803 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_5day_rep2 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-05_S58_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 40064279 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Control_5day_rep3 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-06_S59_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz...
+Processed 43062194 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep1 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-07_S60_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz...
+Processed 44733624 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep2 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-08_S61_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz...
+Processed 37740072 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_3day_rep3 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-09_S62_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz...
+Processed 36326783 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_5day_rep1 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-10_S63_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz...
+Processed 48577271 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_5day_rep2 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-11_S64_L003_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 45672759 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processing Treatment_5day_rep3 read 2...
+Path: /compbio/data/ClaireMoore/cmoore_019.admera/22166R-07-12_S138_L008_R2_001.fastq.gz
+Processing /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.fastq.gz...
+Processed 36559098 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 42147460 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 47895150 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 128073942 reads from /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Step 3: Repair read pairs and align with STAR
+java -ea -Xmx111704m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+java -ea -Xmx111704m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+java -ea -Xmx111704m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+java -ea -Xmx111704m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz]
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz]
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz]
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+
+
+
+Set INTERLEAVED to false
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+Set INTERLEAVED to false
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	69366640 reads 		8595765229 bases.
+
+Input:                  	85914115 reads 		10638026296 bases.
+
+Input:                  	89298605 reads 		11035144836 bases.
+
+Input:                  	79866960 reads 		9968810114 bases.
+Result:                 	79866960 reads (100.00%) 	9968810114 bases (100.00%)
+Pairs:                  	79175194 reads (99.13%) 	9901616598 bases (99.33%)
+Singletons:             	691766 reads (0.87%) 	67193516 bases (0.67%)
+
+Time:                         	278.939 seconds.
+Reads Processed:      79866k 	286.32k reads/sec
+Bases Processed:       9968m 	35.74m bases/sec
+Result:                 	69366640 reads (100.00%) 	8595765229 bases (100.00%)
+Pairs:                  	68792382 reads (99.17%) 	8538995501 bases (99.34%)
+Singletons:             	574258 reads (0.83%) 	56769728 bases (0.66%)
+Result:                 	89298605 reads (100.00%) 	11035144836 bases (100.00%)
+
+Pairs:                  	88573564 reads (99.19%) 	10961900799 bases (99.34%)
+Singletons:             	725041 reads (0.81%) 	73244037 bases (0.66%)
+
+Time:                         	278.815 seconds.
+Reads Processed:      69366k 	248.79k reads/sec
+Bases Processed:       8595m 	30.83m bases/sec
+Time:                         	278.935 seconds.
+Reads Processed:      89298k 	320.14k reads/sec
+Bases Processed:      11035m 	39.56m bases/sec
+Result:                 	85914115 reads (100.00%) 	10638026296 bases (100.00%)
+Pairs:                  	85219162 reads (99.19%) 	10569751646 bases (99.36%)
+Singletons:             	694953 reads (0.81%) 	68274650 bases (0.64%)
+
+Time:                         	278.871 seconds.
+Reads Processed:      85914k 	308.08k reads/sec
+Bases Processed:      10638m 	38.15m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:09:47 ...... FATAL ERROR, exiting
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:09:47 ...... FATAL ERROR, exiting
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:09:47 ...... FATAL ERROR, exiting
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:09:47 ...... FATAL ERROR, exiting
+java -ea -Xmx111648m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+java -ea -Xmx111648m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+java -ea -Xmx107928m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+java -ea -Xmx106069m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	75372895 reads 		9333660618 bases.
+Result:                 	75372895 reads (100.00%) 	9333660618 bases (100.00%)
+Pairs:                  	74914568 reads (99.39%) 	9287505598 bases (99.51%)
+Singletons:             	458327 reads (0.61%) 	46155020 bases (0.49%)
+
+Time:                         	164.693 seconds.
+Reads Processed:      75372k 	457.66k reads/sec
+Bases Processed:       9333m 	56.67m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:12:34 ...... FATAL ERROR, exiting
+java -ea -Xmx68811m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	72450924 reads 		8962112298 bases.
+Result:                 	72450924 reads (100.00%) 	8962112298 bases (100.00%)
+Pairs:                  	71883358 reads (99.22%) 	8906955255 bases (99.38%)
+Singletons:             	567566 reads (0.78%) 	55157043 bases (0.62%)
+
+Time:                         	172.701 seconds.
+Reads Processed:      72450k 	419.52k reads/sec
+Bases Processed:       8962m 	51.89m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:12:42 ...... FATAL ERROR, exiting
+java -ea -Xmx78321m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	91021755 reads 		11070011144 bases.
+Result:                 	91021755 reads (100.00%) 	11070011144 bases (100.00%)
+Pairs:                  	90141922 reads (99.03%) 	10984451233 bases (99.23%)
+Singletons:             	879833 reads (0.97%) 	85559911 bases (0.77%)
+
+Time:                         	218.988 seconds.
+Reads Processed:      91021k 	415.65k reads/sec
+Bases Processed:      11070m 	50.55m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:13:30 ...... FATAL ERROR, exiting
+java -ea -Xmx88325m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	96954396 reads 		11582308440 bases.
+Result:                 	96954396 reads (100.00%) 	11582308440 bases (100.00%)
+Pairs:                  	96297280 reads (99.32%) 	11518169296 bases (99.45%)
+Singletons:             	657116 reads (0.68%) 	64139144 bases (0.55%)
+
+Time:                         	230.843 seconds.
+Reads Processed:      96954k 	420.00k reads/sec
+Bases Processed:      11582m 	50.17m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:13:41 ...... FATAL ERROR, exiting
+java -ea -Xmx92885m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R1.fastq.gz in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R1.fastq.gz, in2=/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt/Treatment_5day_rep3/Treatment_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz]
+
+Set INTERLEAVED to false
+No output stream specified.  To write to stdout, please specify 'out=stdout.fq' or similar.
+
+Input:                  	72985092 reads 		9039738011 bases.
+Result:                 	72985092 reads (100.00%) 	9039738011 bases (100.00%)
+Pairs:                  	72375930 reads (99.17%) 	8977056088 bases (99.31%)
+Singletons:             	609162 reads (0.83%) 	62681923 bases (0.69%)
+
+Time:                         	165.810 seconds.
+Reads Processed:      72985k 	440.17k reads/sec
+Bases Processed:       9039m 	54.52m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:15:30 ...... FATAL ERROR, exiting
+
+Input:                  	95613286 reads 		11897960488 bases.
+Result:                 	95613286 reads (100.00%) 	11897960488 bases (100.00%)
+Pairs:                  	94894862 reads (99.25%) 	11824488970 bases (99.38%)
+Singletons:             	718424 reads (0.75%) 	73471518 bases (0.62%)
+
+Time:                         	222.274 seconds.
+Reads Processed:      95613k 	430.16k reads/sec
+Bases Processed:      11897m 	53.53m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:16:18 ...... FATAL ERROR, exiting
+
+Input:                  	84012559 reads 		10278870514 bases.
+Result:                 	84012559 reads (100.00%) 	10278870514 bases (100.00%)
+Pairs:                  	83327190 reads (99.18%) 	10212531328 bases (99.35%)
+Singletons:             	685369 reads (0.82%) 	66339186 bases (0.65%)
+
+Time:                         	184.273 seconds.
+Reads Processed:      84012k 	455.91k reads/sec
+Bases Processed:      10278m 	55.78m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:16:36 ...... FATAL ERROR, exiting
+
+Input:                  	254571081 reads 		28632923022 bases.
+Result:                 	254571081 reads (100.00%) 	28632923022 bases (100.00%)
+Pairs:                  	249360702 reads (97.95%) 	28171230715 bases (98.39%)
+Singletons:             	5210379 reads (2.05%) 	461692307 bases (1.61%)
+
+Time:                         	572.684 seconds.
+Reads Processed:        254m 	444.52k reads/sec
+Bases Processed:      28632m 	50.00m bases/sec
+./parallel_pipeline.sh: line 101: repair: command not found
+!!!!! WARNING:  Could not ls /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep3/Treatment_5day_rep3_R1.fastq.gz
+
+EXITING: because of fatal INPUT file error: could not open read file: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s2_fastq_cutadapt_pair/Treatment_5day_rep3/Treatment_5day_rep3_R1.fastq.gz
+SOLUTION: check that this file exists and has read permision.
+
+Jul 12 02:23:21 ...... FATAL ERROR, exiting
+Compiling STAR alignment statistics...
+grep: */*Log.final.out: No such file or directory
+grep: */*Log.final.out: No such file or directory
+grep: */*Log.final.out: No such file or directory
+grep: */*Log.final.out: No such file or directory
+grep: */*Log.final.out: No such file or directory
+grep: */*Log.final.out: No such file or directory
+Step 4: Deduplication
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep1/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep3/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_3day_rep2/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed"/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep1/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep2/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Control_5day_rep3/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep1/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep2/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_3day_rep3/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_5day_rep1/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_5day_rep2/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s3_star_align/Treatment_5day_rep3/Aligned.sortedByCoord.out.bam" is in a format that cannot be usefully indexed
+Step 5: Convert BAM to BED
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep1/Control_3day_rep1.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep1/Control_3day_rep1.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep2/Control_3day_rep2.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep2/Control_3day_rep2.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep3/Control_3day_rep3.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_3day_rep3/Control_3day_rep3.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep1/Control_5day_rep1.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep1/Control_5day_rep1.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep1/Treatment_3day_rep1.dedup.bam".
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep2/Treatment_3day_rep2.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep1/Treatment_3day_rep1.dedup_R2.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep2/Treatment_3day_rep2.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep2/Control_5day_rep2.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep2/Control_5day_rep2.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep3/Control_5day_rep3.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Control_5day_rep3/Control_5day_rep3.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep3/Treatment_3day_rep3.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_3day_rep3/Treatment_3day_rep3.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep1/Treatment_5day_rep1.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep1/Treatment_5day_rep1.dedup_R2.bam" is in a format that cannot be usefully indexed
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep2/Treatment_5day_rep2.dedup.bam".
+[main_samview] fail to read the header from "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep3/Treatment_5day_rep3.dedup.bam".
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep2/Treatment_5day_rep2.dedup_R2.bam" is in a format that cannot be usefully indexed
+samtools index: "/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s4_bam_dedup/Treatment_5day_rep3/Treatment_5day_rep3.dedup_R2.bam" is in a format that cannot be usefully indexed
+wc: '*.sorted.bed': No such file or directory
+Step 6: LAP/PAS analysis
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+Loading required package: plyranges
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: plyranges
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: IRanges
+Loading required package: plyranges
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+
+Attaching package: ‘plyranges’
+
+
+Attaching package: ‘plyranges’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: GenomicAlignments
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: SummarizedExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘matrixStats’
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Loading required package: Biobase
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: Biobase
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+
+Attaching package: ‘Biobase’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: Biostrings
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+Loading required package: Biostrings
+Loading required package: Biostrings
+Loading required package: XVector
+Loading required package: XVector
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+Loading required package: Rsamtools
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+
+Attaching package: ‘GenomicAlignments’
+
+Loading required package: patchwork
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+[1][1] "sample name, 63" "sample name, 63"
+
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: In addition: Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+Warning message:
+Warning message:
+In addition: In file(file, "rt") :In file(file, "rt") :Warning message:
+
+ 
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+ using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Execution halted
+Execution halted
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: S4Vectors
+Loading required package: stats4
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+Loading required package: tidyverse
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+Loading required package: tidyverse
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: Biostrings
+Loading required package: SummarizedExperiment
+Loading required package: XVector
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: Rsamtools
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, 63"
+Error in read.table(bed_dir, header = F, sep = "\t", quote = "", stringsAsFactors = FALSE) : 
+  no lines available in input
+In addition: Warning message:
+In file(file, "rt") :
+  using 'raw = TRUE' because '/dev/fd/63' is a fifo or pipe
+Execution halted
+mv: cannot stat '/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/*cluster.all.reads.csv': No such file or directory
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                            csv                             out 
+                           "./"       "./cluster.all.reads.csv" 
+                        pattern 
+"_cluster\\.all\\.reads\\.csv$" 
+character(0)
+Error in ldf[[1]] : subscript out of bounds
+Calls: colnames -> is.data.frame
+Execution halted
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                                                               csv 
+"/compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP" 
+                                                               out 
+                                                 "./stats_PAS.csv" 
+                                                           pattern 
+                                                 ".*_stats\\.csv$" 
+character(0)
+Error in ldf[[1]] : subscript out of bounds
+Calls: colnames -> is.data.frame
+Execution halted
+Step 7: Generate bigWig tracks
+Working on PASS_bw_LAP24...
+Working on Control_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24.bed: No such file or directory
+for file Control_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Control_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24.bed: No such file or directory
+for file Control_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24.bed: No such file or directory
+for file Control_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24.bed: No such file or directory
+for file Treatment_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on PASS_bw_LAP24_positon...
+Working on Control_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Control_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24_positon.bed: No such file or directory
+for file Treatment_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24_positon.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on PASS_bw_LAP24_PAS...
+Working on Control_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Control_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24_PAS.bed: No such file or directory
+for file Treatment_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_PASS_bw_LAP24_PAS.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on mapped_read...
+Working on Control_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_mapped_read.bed: No such file or directory
+for file Control_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep1_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_mapped_read.bed: No such file or directory
+for file Control_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep2_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_mapped_read.bed: No such file or directory
+for file Control_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_3day_rep3_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_mapped_read.bed: No such file or directory
+for file Control_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep1_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_mapped_read.bed: No such file or directory
+for file Control_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep2_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Control_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_mapped_read.bed: No such file or directory
+for file Control_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Control_5day_rep3_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Control_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Control_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Control_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_mapped_read.bed: No such file or directory
+for file Treatment_3day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep1_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_mapped_read.bed: No such file or directory
+for file Treatment_3day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep2_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_3day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_mapped_read.bed: No such file or directory
+for file Treatment_3day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_3day_rep3_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_3day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_3day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_3day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep1...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_mapped_read.bed: No such file or directory
+for file Treatment_5day_rep1_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep1_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep1.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep1.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep1.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep2...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_mapped_read.bed: No such file or directory
+for file Treatment_5day_rep2_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep2_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep2.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep2.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep2.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Working on Treatment_5day_rep3...
+wc: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_mapped_read.bed: No such file or directory
+for file Treatment_5day_rep3_PASS_bw.bed, TotalReadNum=
+gzip: /compbio/scratch/cnobrega/3_REAP/cmoore_019.admera/output/s6_LAP/Treatment_5day_rep3_mapped_read.bed.gz: No such file or directory
+Generate bedgraph files for + and - strands...
+Normalize bedgraph counts...
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+error, input bedgraph file(s) (-i) not defined
+eg. norm_bedgraph.pl -t 9898819 -i "sham_a.m.bedgraph sham_a.p.bedgraph" -m "sham_a.m.bedgraph"
+awk: fatal: cannot open file `Treatment_5day_rep3.minus.bedgraph.normalized' for reading (No such file or directory)
+Convert to bigwig file...
+mustOpen: Can't open Treatment_5day_rep3.plus.bedgraph.normalized to read: No such file or directory
+mustOpen: Can't open Treatment_5day_rep3.minus.bedgraph.normalized to read: No such file or directory
+needLargeMem: trying to allocate 0 bytes (limit: 100000000000)
+Pipeline complete!

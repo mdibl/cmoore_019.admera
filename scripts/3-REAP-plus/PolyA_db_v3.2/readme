@@ -1,0 +1,4 @@
+The PAS position in polyA_DB files are 1-based. 
+If you need the bed file, the coordinates should be ——
+chr1 position-1 position PAS1 . +
+chr1 position-1 position PAS2 . -
