@@ -1,0 +1,207 @@
+=== 3-REAP pipeline ===
+    Project : /compbio/analysis/ClaireMoore/cmoore_019.admera
+    Output  : /compbio/data/ClaireMoore/cmoore_019.admera/processed/
+    Samples : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/sample.txt
+    PolyADB : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/PolyA_DB_v4.1/hg38.PAS.main.tsv
+
+[Step 2] Adapter / polyA trimming...
+  [R1] Control_3day_rep1
+  [R1] Control_3day_rep3
+  [R1] Control_3day_rep2
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R2] Control_3day_rep1
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+  [R2] Control_3day_rep3
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+  [R2] Control_3day_rep2
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+  [R1] Control_5day_rep1
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R2] Control_5day_rep1
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+  [R1] Control_5day_rep3
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+  [R1] Control_5day_rep2
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R1] Treatment_3day_rep1
+  [R2] Control_5day_rep3
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+  [R2] Treatment_3day_rep1
+  [R2] Control_5day_rep2
+3-REAP_workflow.sh: line 97: python: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+  [R1] Treatment_3day_rep2
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R2] Treatment_3day_rep2
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+  [R1] Treatment_3day_rep3
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R1] Treatment_5day_rep1
+  [R2] Treatment_3day_rep3
+  [R1] Treatment_5day_rep2
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R2] Treatment_5day_rep1
+3-REAP_workflow.sh: line 97: python: command not found
+  [R2] Treatment_5day_rep2
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+[Step 3] Repair pairs + STAR alignment...
+  [align] Control_3day_rep1
+  [align] Control_3day_rep2
+  [align] Control_3day_rep3
+  [align] Control_5day_rep1
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+  [align] Control_5day_rep2
+  [align] Control_5day_rep3
+  [align] Treatment_3day_rep1
+  [align] Treatment_3day_rep2
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+  [align] Treatment_3day_rep3
+  [align] Treatment_5day_rep1
+  [align] Treatment_5day_rep2
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+[Step 3] Compiling alignment statistics...
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+grep: /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/*/star/*Log.final.out: No such file or directory
+[Step 4] Deduplication...
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+3-REAP_workflow.sh: line 191: samtools: command not found
+[Step 5] BAM → BED (R2 reads)...
+  [bed] Control_3day_rep1
+  [bed] Control_3day_rep2
+  [bed] Control_3day_rep3
+  [bed] Control_5day_rep1
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+  [bed] Control_5day_rep2
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+  [bed] Control_5day_rep3
+  [bed] Treatment_3day_rep1
+  [bed] Treatment_3day_rep2
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+  [bed] Treatment_3day_rep3
+3-REAP_workflow.sh: line 230: samtools: command not found
+3-REAP_workflow.sh: line 232: bedtools: command not found
+  [bed] Treatment_5day_rep1
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+  [bed] Treatment_5day_rep2
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+  Read counts per sample:
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_5day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_5day_rep2.dedup_R2.sorted.bed
+0 total
+ERROR: All R2 BED files are empty. R2 trimming likely failed — check that sample.txt has valid R2 paths and that the raw R2 FASTQs exist.

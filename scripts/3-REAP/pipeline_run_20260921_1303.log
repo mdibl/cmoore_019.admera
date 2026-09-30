@@ -1,0 +1,357 @@
+=== 3-REAP pipeline ===
+    Project : /compbio/analysis/ClaireMoore/cmoore_019.admera
+    Output  : /compbio/data/ClaireMoore/cmoore_019.admera/processed/
+    Samples : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/sample.txt
+    PolyADB : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/PolyA_DB_v4.1/hg38.PAS.main.tsv
+
+[Step 2] Adapter / polyA trimming...
+  [R1] Control_3day_rep1
+  [R1] Control_3day_rep2
+  [R1] Control_3day_rep3
+  [R1] Control_5day_rep1
+  [R2] Control_3day_rep2
+  [R2] Control_3day_rep3
+  [R2] Control_5day_rep1
+  [R2] Control_3day_rep1
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz...
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz...
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz...
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz...
+Processed 34785803 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Control_5day_rep2
+  [R2] Control_5day_rep2
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 40064279 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Control_5day_rep3
+  [R2] Control_5day_rep3
+[Errno 2] No such file or directory: '/compbio/data/ClaireMoore/cmoore_019.admera/raw/22166R-07-06_S59_L003_R2_001.fastq.gz'
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz...
+Processed 0 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Treatment_3day_rep1
+  [R2] Treatment_3day_rep1
+Processed 43062194 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Treatment_3day_rep2
+  [R2] Treatment_3day_rep2
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz...
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz...
+Processed 44733624 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Treatment_3day_rep3
+  [R2] Treatment_3day_rep3
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz...
+Processed 36326783 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Treatment_5day_rep1
+  [R2] Treatment_5day_rep1
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz...
+Processed 48577271 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+  [R1] Treatment_5day_rep2
+  [R2] Treatment_5day_rep2
+Processing /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz...
+Processed 45672759 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 47895150 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 36559098 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz
+Processed 42147460 reads from /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.fastq.gz. Output saved to /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz.
+Processed file saved as: /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz
+[Step 3] Repair pairs + STAR alignment...
+  [align] Control_3day_rep3
+  [align] Control_5day_rep1
+  [align] Control_3day_rep1
+  [align] Control_3day_rep2
+java -ea -Xmx207918m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_unpaired.fastq.gz repair
+java -ea -Xmx207918m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_unpaired.fastq.gz repair
+java -ea -Xmx207918m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_unpaired.fastq.gz repair
+java -ea -Xmx207918m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep3/Control_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_unpaired.fastq.gz, repair]
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep2/Control_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_unpaired.fastq.gz, repair]
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep1/Control_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_unpaired.fastq.gz, repair]
+
+
+
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_3day_rep1/Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Set INTERLEAVED to false
+Set INTERLEAVED to false
+Set INTERLEAVED to false
+Started output stream.
+Started output stream.
+Started output stream.
+Started output stream.
+
+Input:                  	69366640 reads 		8595765229 bases.
+Result:                 	69366640 reads (100.00%) 	8595765229 bases (100.00%)
+Pairs:                  	68792382 reads (99.17%) 	8538995501 bases (99.34%)
+Singletons:             	574258 reads (0.83%) 	56769728 bases (0.66%)
+
+Time:                         	146.598 seconds.
+Reads Processed:      69366k 	473.18k reads/sec
+Bases Processed:       8595m 	58.63m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/repaired/Control_3day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep2/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 19:43:54 ..... started STAR run
+Sep 21 19:43:54 ..... loading genome
+
+Input:                  	79866960 reads 		9968810114 bases.
+Result:                 	79866960 reads (100.00%) 	9968810114 bases (100.00%)
+Pairs:                  	79175194 reads (99.13%) 	9901616598 bases (99.33%)
+Singletons:             	691766 reads (0.87%) 	67193516 bases (0.67%)
+
+Time:                         	158.665 seconds.
+Reads Processed:      79866k 	503.37k reads/sec
+Bases Processed:       9968m 	62.83m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/repaired/Control_3day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep3/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 19:44:06 ..... started STAR run
+Sep 21 19:44:06 ..... loading genome
+
+Input:                  	85914115 reads 		10638026296 bases.
+Result:                 	85914115 reads (100.00%) 	10638026296 bases (100.00%)
+Pairs:                  	85219162 reads (99.19%) 	10569751646 bases (99.36%)
+Singletons:             	694953 reads (0.81%) 	68274650 bases (0.64%)
+
+Time:                         	167.850 seconds.
+Reads Processed:      85914k 	511.85k reads/sec
+Bases Processed:      10638m 	63.38m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/repaired/Control_5day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep1/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 19:44:15 ..... started STAR run
+Sep 21 19:44:15 ..... loading genome
+
+Input:                  	89298605 reads 		11035144836 bases.
+Result:                 	89298605 reads (100.00%) 	11035144836 bases (100.00%)
+Pairs:                  	88573564 reads (99.19%) 	10961900799 bases (99.34%)
+Singletons:             	725041 reads (0.81%) 	73244037 bases (0.66%)
+
+Time:                         	180.380 seconds.
+Reads Processed:      89298k 	495.06k reads/sec
+Bases Processed:      11035m 	61.18m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/repaired/Control_3day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_3day_rep1/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 19:44:27 ..... started STAR run
+Sep 21 19:44:27 ..... loading genome
+Sep 21 19:46:57 ..... started mapping
+Sep 21 19:46:57 ..... started mapping
+Sep 21 19:46:57 ..... started mapping
+Sep 21 19:46:57 ..... started mapping
+Sep 21 20:10:51 ..... finished mapping
+Sep 21 20:10:56 ..... started sorting BAM
+Sep 21 20:11:36 ..... finished successfully
+  [align] Control_5day_rep2
+java -ea -Xmx130409m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep2/Control_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+Sep 21 20:14:09 ..... finished mapping
+Sep 21 20:14:15 ..... finished mapping
+Sep 21 20:14:15 ..... started sorting BAM
+Sep 21 20:14:20 ..... started sorting BAM
+Sep 21 20:14:56 ..... finished successfully
+  [align] Control_5day_rep3
+java -ea -Xmx170933m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Unspecified format for input /compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Control_5day_rep3/Control_5day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz; defaulting to fastq.
+Started output stream.
+Sep 21 20:15:04 ..... finished successfully
+
+Input:                  	96954396 reads 		11582308440 bases.
+Result:                 	96954396 reads (100.00%) 	11582308440 bases (100.00%)
+Pairs:                  	96297280 reads (99.32%) 	11518169296 bases (99.45%)
+Singletons:             	657116 reads (0.68%) 	64139144 bases (0.55%)
+
+Time:                         	204.527 seconds.
+Reads Processed:      96954k 	474.04k reads/sec
+Bases Processed:      11582m 	56.63m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/repaired/Control_5day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep2/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:15:08 ..... started STAR run
+Sep 21 20:15:08 ..... loading genome
+  [align] Treatment_3day_rep1
+java -ea -Xmx127369m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep1/Treatment_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+Sep 21 20:15:31 ..... finished mapping
+Sep 21 20:15:33 ..... started mapping
+Sep 21 20:15:36 ..... started sorting BAM
+Sep 21 20:16:21 ..... finished successfully
+  [align] Treatment_3day_rep2
+java -ea -Xmx109192m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep2/Treatment_3day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+
+Input:                  	37632823 reads 		4780869715 bases.
+Result:                 	37632823 reads (100.00%) 	4780869715 bases (100.00%)
+Pairs:                  	0 reads (0.00%) 	0 bases (0.00%)
+Singletons:             	37632823 reads (100.00%) 	4780869715 bases (100.00%)
+
+Time:                         	175.692 seconds.
+Reads Processed:      37632k 	214.20k reads/sec
+Bases Processed:       4780m 	27.21m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/repaired/Control_5day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Control_5day_rep3/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:18:07 ..... started STAR run
+Sep 21 20:18:07 ..... loading genome
+
+Input:                  	91021755 reads 		11070011144 bases.
+Result:                 	91021755 reads (100.00%) 	11070011144 bases (100.00%)
+Pairs:                  	90141922 reads (99.03%) 	10984451233 bases (99.23%)
+Singletons:             	879833 reads (0.97%) 	85559911 bases (0.77%)
+
+Time:                         	185.229 seconds.
+Reads Processed:      91021k 	491.40k reads/sec
+Bases Processed:      11070m 	59.76m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/repaired/Treatment_3day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep1/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:18:18 ..... started STAR run
+Sep 21 20:18:18 ..... loading genome
+Sep 21 20:18:34 ..... started mapping
+Sep 21 20:18:36 ..... finished mapping
+Sep 21 20:18:40 ..... started sorting BAM
+Sep 21 20:18:40 ..... finished successfully
+  [align] Treatment_3day_rep3
+java -ea -Xmx149957m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_3day_rep3/Treatment_3day_rep3_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+Sep 21 20:18:43 ..... started mapping
+
+Input:                  	72450924 reads 		8962112298 bases.
+Result:                 	72450924 reads (100.00%) 	8962112298 bases (100.00%)
+Pairs:                  	71883358 reads (99.22%) 	8906955255 bases (99.38%)
+Singletons:             	567566 reads (0.78%) 	55157043 bases (0.62%)
+
+Time:                         	137.067 seconds.
+Reads Processed:      72450k 	528.58k reads/sec
+Bases Processed:       8962m 	65.38m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/repaired/Treatment_3day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep2/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:18:46 ..... started STAR run
+Sep 21 20:18:46 ..... loading genome
+Sep 21 20:19:13 ..... started mapping
+
+Input:                  	95613286 reads 		11897960488 bases.
+Result:                 	95613286 reads (100.00%) 	11897960488 bases (100.00%)
+Pairs:                  	94894862 reads (99.25%) 	11824488970 bases (99.38%)
+Singletons:             	718424 reads (0.75%) 	73471518 bases (0.62%)
+
+Time:                         	211.004 seconds.
+Reads Processed:      95613k 	453.14k reads/sec
+Bases Processed:      11897m 	56.39m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/repaired/Treatment_3day_rep3_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_3day_rep3/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:22:14 ..... started STAR run
+Sep 21 20:22:14 ..... loading genome
+Sep 21 20:22:42 ..... started mapping
+Sep 21 20:42:16 ..... finished mapping
+Sep 21 20:42:21 ..... started sorting BAM
+Sep 21 20:43:00 ..... finished successfully
+  [align] Treatment_5day_rep1
+java -ea -Xmx130410m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep1/Treatment_5day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+
+Input:                  	72985092 reads 		9039738011 bases.
+Result:                 	72985092 reads (100.00%) 	9039738011 bases (100.00%)
+Pairs:                  	72375930 reads (99.17%) 	8977056088 bases (99.31%)
+Singletons:             	609162 reads (0.83%) 	62681923 bases (0.69%)
+
+Time:                         	153.858 seconds.
+Reads Processed:      72985k 	474.37k reads/sec
+Bases Processed:       9039m 	58.75m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/repaired/Treatment_5day_rep1_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep1/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:45:41 ..... started STAR run
+Sep 21 20:45:41 ..... loading genome
+Sep 21 20:45:52 ..... finished mapping
+Sep 21 20:45:56 ..... started sorting BAM
+Sep 21 20:46:08 ..... started mapping
+Sep 21 20:46:45 ..... finished successfully
+  [align] Treatment_5day_rep2
+java -ea -Xmx130580m -cp /home/cnobrega/miniforge3/envs/reap-env/opt/bbmap-39.28-0/current/ jgi.SplitPairsAndSingles rp overwrite=t in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R1.fastq.gz out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R2.fastq.gz outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_unpaired.fastq.gz repair
+Executing jgi.SplitPairsAndSingles [rp, overwrite=t, in1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R1.fastq.gz, in2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//01_trim/Treatment_5day_rep2/Treatment_5day_rep2_R2_trimAdapt.5Ttrimmed.fastq.gz, out1=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R1.fastq.gz, out2=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R2.fastq.gz, outs=/compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_unpaired.fastq.gz, repair]
+
+Set INTERLEAVED to false
+Started output stream.
+Sep 21 20:47:58 ..... finished mapping
+Sep 21 20:48:03 ..... started sorting BAM
+Sep 21 20:48:52 ..... finished successfully
+
+Input:                  	84012559 reads 		10278870514 bases.
+Result:                 	84012559 reads (100.00%) 	10278870514 bases (100.00%)
+Pairs:                  	83327190 reads (99.18%) 	10212531328 bases (99.35%)
+Singletons:             	685369 reads (0.82%) 	66339186 bases (0.65%)
+
+Time:                         	172.067 seconds.
+Reads Processed:      84012k 	488.26k reads/sec
+Bases Processed:      10278m 	59.74m bases/sec
+	/home/cnobrega/miniforge3/envs/reap-env/bin/STAR-avx2 --runThreadN 8 --readFilesCommand zcat --genomeDir /compbio/analysis/ClaireMoore/cmoore_019.admera/data/ref/star_index_hg38 --readFilesIn /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R1.fastq.gz /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/repaired/Treatment_5day_rep2_R2.fastq.gz --outReadsUnmapped None --outFilterType BySJout --limitBAMsortRAM 4000000000 --outSAMattributes NH HI NM MD --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /compbio/data/ClaireMoore/cmoore_019.admera/processed//02_align/Treatment_5day_rep2/star/ --outFilterMultimapNmax 1 --outFilterScoreMinOverLread 0.2 --outFilterMatchNminOverLread 0.2
+	STAR version: 2.7.11b   compiled: 2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+Sep 21 20:49:46 ..... started STAR run
+Sep 21 20:49:46 ..... loading genome
+Sep 21 20:50:08 ..... started mapping
+Sep 21 20:52:18 ..... finished mapping
+Sep 21 20:52:22 ..... started sorting BAM
+Sep 21 20:53:09 ..... finished successfully
+Sep 21 21:03:05 ..... finished mapping
+Sep 21 21:03:10 ..... started sorting BAM
+Sep 21 21:03:41 ..... finished successfully
+Sep 21 21:08:08 ..... finished mapping
+Sep 21 21:08:13 ..... started sorting BAM
+Sep 21 21:08:46 ..... finished successfully
+[Step 3] Compiling alignment statistics...
+[Step 4] Deduplication...
+  [skip] Control_3day_rep2: dedup link exists
+  [skip] Control_3day_rep3: dedup link exists
+  [skip] Control_5day_rep3: dedup link exists
+  [skip] Control_5day_rep1: dedup link exists
+  [skip] Control_3day_rep1: dedup link exists
+  [skip] Treatment_3day_rep2: dedup link exists
+  [skip] Control_5day_rep2: dedup link exists
+  [skip] Treatment_3day_rep1: dedup link exists
+  [skip] Treatment_3day_rep3: dedup link exists
+  [skip] Treatment_5day_rep1: dedup link exists
+  [skip] Treatment_5day_rep2: dedup link exists
+[Step 5] BAM → BED (R2 reads)...
+  [skip] Control_3day_rep1: BED exists
+  [skip] Control_3day_rep2: BED exists
+  [skip] Control_3day_rep3: BED exists
+  [skip] Control_5day_rep1: BED exists
+  [skip] Control_5day_rep2: BED exists
+  [skip] Control_5day_rep3: BED exists
+  [skip] Treatment_3day_rep1: BED exists
+  [skip] Treatment_3day_rep2: BED exists
+  [skip] Treatment_3day_rep3: BED exists
+  [skip] Treatment_5day_rep1: BED exists
+  [skip] Treatment_5day_rep2: BED exists
+  Read counts per sample:
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_3day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Control_5day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep2.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_3day_rep3.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_5day_rep1.dedup_R2.sorted.bed
+0 /compbio/data/ClaireMoore/cmoore_019.admera/processed//04_bed/Treatment_5day_rep2.dedup_R2.sorted.bed
+0 total
+ERROR: All R2 BED files are empty. R2 trimming likely failed — check that sample.txt has valid R2 paths and that the raw R2 FASTQs exist.

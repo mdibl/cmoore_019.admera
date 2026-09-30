@@ -1,0 +1,5 @@
+outs:
+- md5: 66ac01fd5cf3db5028d279ed2b09ea2e
+  size: 1459310115
+  hash: md5
+  path: Control_3day_rep1_PASS_bw_LAP24_positon.bed.sorted

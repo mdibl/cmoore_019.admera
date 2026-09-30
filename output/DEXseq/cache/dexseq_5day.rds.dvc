@@ -1,0 +1,5 @@
+outs:
+- md5: 357d2c6a58a7cb8c4261d18b856035c3
+  size: 85128383
+  hash: md5
+  path: dexseq_5day.rds

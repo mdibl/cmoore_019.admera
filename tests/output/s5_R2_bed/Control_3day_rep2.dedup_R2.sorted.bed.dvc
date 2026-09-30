@@ -1,0 +1,5 @@
+outs:
+- md5: 63a22a06144b1271cc4d4ac6e4f7bf18
+  size: 1886932336
+  hash: md5
+  path: Control_3day_rep2.dedup_R2.sorted.bed

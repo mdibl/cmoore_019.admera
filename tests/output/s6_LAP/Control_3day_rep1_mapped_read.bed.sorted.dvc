@@ -1,0 +1,5 @@
+outs:
+- md5: 191722d6d374b2635007f53b086d36df
+  size: 2186524584
+  hash: md5
+  path: Control_3day_rep1_mapped_read.bed.sorted

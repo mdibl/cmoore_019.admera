@@ -1,0 +1,5 @@
+outs:
+- md5: 50376a7b9ef0ed7a9dac8139457885d6
+  size: 2266138339
+  hash: md5
+  path: Control_3day_rep1_R1.fastq.gz

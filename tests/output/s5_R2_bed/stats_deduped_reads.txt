@@ -1,0 +1,9 @@
+   8124448 Control_3day_rep1.dedup_R2.sorted.bed
+   7182623 Control_3day_rep2.dedup_R2.sorted.bed
+  15307071 total
+0 Control_3day_rep1.dedup_R2.sorted.bed
+0 Control_3day_rep2.dedup_R2.sorted.bed
+0 total
+  30983447 Control_3day_rep1.dedup_R2.sorted.bed
+  24442948 Control_3day_rep2.dedup_R2.sorted.bed
+  55426395 total

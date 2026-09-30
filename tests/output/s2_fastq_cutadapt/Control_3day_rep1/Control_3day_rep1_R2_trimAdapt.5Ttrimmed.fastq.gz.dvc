@@ -1,0 +1,5 @@
+outs:
+- md5: ebb3643698dde7630b288d04807c4cf7
+  size: 2965045988
+  hash: md5
+  path: Control_3day_rep1_R2_trimAdapt.5Ttrimmed.fastq.gz

@@ -1,0 +1,2715 @@
+=== 3-REAP pipeline ===
+    Project : /compbio/analysis/ClaireMoore/cmoore_019.admera
+    Output  : /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP
+    Samples : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/sample.txt
+    PolyADB : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/PolyA_DB_v4.1/hg38.PAS.main.tsv
+
+[Step 2] Adapter / polyA trimming...
+  [R1 skip] Control_3day_rep1
+  [R1 skip] Control_3day_rep2
+  [R1 skip] Control_3day_rep3
+  [R2 skip] Control_3day_rep1
+  [R1 skip] Control_5day_rep1
+  [R2 skip] Control_3day_rep3
+  [R2 skip] Control_3day_rep2
+  [R2 skip] Control_5day_rep1
+  [R1 skip] Control_5day_rep2
+  [R1 skip] Control_5day_rep3
+  [R2 skip] Control_5day_rep2
+  [R1 skip] Treatment_3day_rep1
+  [R2 skip] Control_5day_rep3
+  [R2 skip] Treatment_3day_rep1
+  [R1 skip] Treatment_3day_rep2
+  [R2 skip] Treatment_3day_rep2
+  [R1 skip] Treatment_3day_rep3
+  [R1 skip] Treatment_5day_rep1
+  [R2 skip] Treatment_3day_rep3
+  [R1 skip] Treatment_5day_rep2
+  [R2 skip] Treatment_5day_rep2
+  [R1 skip] Treatment_5day_rep3
+  [R2 skip] Treatment_5day_rep1
+  [R2 skip] Treatment_5day_rep3
+[Step 3] Repair pairs + STAR alignment...
+  [skip] Control_3day_rep2: already aligned
+  [skip] Control_3day_rep3: already aligned
+  [skip] Control_5day_rep3: already aligned
+  [skip] Treatment_3day_rep1: already aligned
+  [skip] Control_5day_rep1: already aligned
+  [skip] Control_3day_rep1: already aligned
+  [skip] Treatment_5day_rep1: already aligned
+  [skip] Treatment_5day_rep2: already aligned
+  [skip] Treatment_5day_rep3: already aligned
+  [skip] Treatment_3day_rep3: already aligned
+  [skip] Control_5day_rep2: already aligned
+  [skip] Treatment_3day_rep2: already aligned
+[Step 3] Compiling alignment statistics...
+[Step 4] Deduplication...
+  [skip] Control_3day_rep1: dedup link exists
+  [skip] Control_3day_rep2: dedup link exists
+  [skip] Control_3day_rep3: dedup link exists
+  [skip] Control_5day_rep1: dedup link exists
+  [skip] Control_5day_rep2: dedup link exists
+  [skip] Control_5day_rep3: dedup link exists
+  [skip] Treatment_3day_rep1: dedup link exists
+  [skip] Treatment_5day_rep1: dedup link exists
+  [skip] Treatment_3day_rep3: dedup link exists
+  [skip] Treatment_5day_rep2: dedup link exists
+  [skip] Treatment_5day_rep3: dedup link exists
+  [skip] Treatment_3day_rep2: dedup link exists
+[Step 5] BAM → BED (R2 reads)...
+  [skip] Control_3day_rep1: BED exists
+  [skip] Control_3day_rep2: BED exists
+  [skip] Control_3day_rep3: BED exists
+  [skip] Control_5day_rep1: BED exists
+  [skip] Control_5day_rep2: BED exists
+  [skip] Control_5day_rep3: BED exists
+  [skip] Treatment_3day_rep1: BED exists
+  [skip] Treatment_3day_rep2: BED exists
+  [skip] Treatment_3day_rep3: BED exists
+  [skip] Treatment_5day_rep1: BED exists
+  [skip] Treatment_5day_rep2: BED exists
+  [bed] Treatment_5day_rep3
+  Read counts per sample:
+   30983447 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep1.dedup_R2.sorted.bed
+   24442948 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep2.dedup_R2.sorted.bed
+   27614350 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep3.dedup_R2.sorted.bed
+   29933904 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep1.dedup_R2.sorted.bed
+   32691161 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep2.dedup_R2.sorted.bed
+   26207162 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep3.dedup_R2.sorted.bed
+   30881868 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_3day_rep1.dedup_R2.sorted.bed
+   25264510 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_3day_rep2.dedup_R2.sorted.bed
+   33856900 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_3day_rep3.dedup_R2.sorted.bed
+   25628139 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_5day_rep1.dedup_R2.sorted.bed
+   29210687 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_5day_rep2.dedup_R2.sorted.bed
+   72678435 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_5day_rep3.dedup_R2.sorted.bed
+  389393511 total
+[Step 6] LAP/PAS analysis (dist=24 nt)...
+  [LAP] Control_3day_rep1
+  [LAP] Control_3day_rep2
+  [LAP] Control_3day_rep3
+  [LAP] Control_5day_rep1
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+Loading required package: plyranges
+Loading required package: plyranges
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+Loading required package: IRanges
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+
+Attaching package: ‘plyranges’
+
+Loading required package: GenomicAlignments
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: Biostrings
+Loading required package: XVector
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Control_3day_rep2"
+[1] "sample name, Control_3day_rep1"
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+Loading required package: SummarizedExperiment
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: MatrixGenerics
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Loading required package: matrixStats
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+
+Attaching package: ‘matrixStats’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+Loading required package: Biostrings
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: XVector
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Biostrings
+Loading required package: Rsamtools
+Loading required package: XVector
+
+Attaching package: ‘GenomicAlignments’
+
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+Loading required package: patchwork
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+[1] "sample name, Control_5day_rep1"
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Control_3day_rep3"
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 24442948 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 29933904 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 27614350 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 30983447 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] 2027719
+[1] "distance mode: 0 and the freq is 9277960"
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+       0        0        1     3128        5 30673183  2027719 
+Warning message:
+Removed 2027719 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 3838717 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] 2285230
+[1] "distance mode: 0 and the freq is 10175194"
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+       0        0        1     3175        5 30744840  2285230 
+Warning message:
+Removed 2285230 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 4424024 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] 2484893
+[1] "distance mode: 0 and the freq is 11312757"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3245       5 5027162 2484893 
+[1] "done!"
+  [LAP] Control_5day_rep2
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Control_5day_rep2"
+Warning message:
+Removed 2484893 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 4636632 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] 2633312
+[1] "distance mode: 0 and the freq is 11381883"
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+       0        0        1     3413        6 30641909  2633312 
+Warning message:
+Removed 2633312 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 5385147 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+  [LAP] Control_5day_rep3
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Control_5day_rep3"
+[1] "done!"
+  [LAP] Treatment_3day_rep1
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_3day_rep1"
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 32691161 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+[1] "done!"
+  [LAP] Treatment_3day_rep2
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_3day_rep2"
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 26207162 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 30881868 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 25264510 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] 2579569
+[1] "distance mode: 0 and the freq is 9978030"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       0    3157       5 5083856 2579569 
+Warning message:
+Removed 2579569 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 4372853 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] 1806737
+[1] "distance mode: 0 and the freq is 9933139"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3170       5 5099426 1806737 
+Warning message:
+Removed 1806737 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 3508083 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+  [LAP] Treatment_3day_rep3
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_3day_rep3"
+[1] 3257888
+[1] "distance mode: 0 and the freq is 12236969"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3733       5 5243134 3257888 
+Warning message:
+Removed 3257888 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 5990001 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] 2476131
+[1] "done!"
+[1] "distance mode: 0 and the freq is 11309390"
+  [LAP] Treatment_5day_rep1
+Loading required package: tidyverse
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3907       6 5213432 2476131 
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_5day_rep1"
+Warning message:
+Removed 2476131 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 5548682 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+  [LAP] Treatment_5day_rep2
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_5day_rep2"
+[1] "done!"
+  [LAP] Treatment_5day_rep3
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: plyranges
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:lubridate’:
+
+    second, second<-
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:lubridate’:
+
+    %within%
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘plyranges’
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, n, n_distinct
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+Loading required package: GenomicAlignments
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘XVector’
+
+The following object is masked from ‘package:purrr’:
+
+    compact
+
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: Rsamtools
+
+Attaching package: ‘GenomicAlignments’
+
+The following object is masked from ‘package:dplyr’:
+
+    last
+
+Loading required package: patchwork
+[1] "sample name, Treatment_5day_rep3"
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 25628139 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 33856900 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 29210687 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 72678435 rows [1, 2, 3,
+4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]. 
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] "numeric"
+[1] "numeric"
+[1] 1927032
+[1] "numeric"
+[1] "numeric"
+[1] "distance mode: 0 and the freq is 9552942"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3891       6 5195100 1927032 
+null device 
+          1 
+Warning message:
+Removed 1927032 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 4420765 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+[1] 2451903
+[1] "distance mode: 0 and the freq is 10637348"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3953       6 4869299 2451903 
+[1] 2319046
+Warning message:
+Removed 2451903 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 5330126 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "distance mode: 0 and the freq is 13306157"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       1    3406       5 5085903 2319046 
+Warning message:
+Removed 2319046 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 5224648 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+[1] "done!"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+[1] "numeric"
+null device 
+          1 
+[1] 5139985
+[1] "distance mode: 0 and the freq is 21626370"
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+       0        0        2     7545       57 35509785  5139985 
+Warning message:
+Removed 5139985 rows containing non-finite outside the scale range
+(`stat_density()`). 
+Warning message:
+Removed 17954157 rows containing non-finite outside the scale range
+(`stat_density()`). 
+null device 
+          1 
+[1] "done!"
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                                                                                                      csv 
+                      "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant" 
+                                                                                                      out 
+"/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/cluster.all.reads.csv" 
+                                                                                                  pattern 
+                                                                          "_cluster\\.all\\.reads\\.csv$" 
+ [1] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_3day_rep1_cluster.all.reads.csv"  
+ [2] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_3day_rep2_cluster.all.reads.csv"  
+ [3] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_3day_rep3_cluster.all.reads.csv"  
+ [4] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_5day_rep1_cluster.all.reads.csv"  
+ [5] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_5day_rep2_cluster.all.reads.csv"  
+ [6] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Control_5day_rep3_cluster.all.reads.csv"  
+ [7] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_3day_rep1_cluster.all.reads.csv"
+ [8] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_3day_rep2_cluster.all.reads.csv"
+ [9] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_3day_rep3_cluster.all.reads.csv"
+[10] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_5day_rep1_cluster.all.reads.csv"
+[11] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_5day_rep2_cluster.all.reads.csv"
+[12] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/Treatment_5day_rep3_cluster.all.reads.csv"
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                                                                                              csv 
+                        "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS" 
+                                                                                              out 
+"/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/PAS_quant/stats_PAS.csv" 
+                                                                                          pattern 
+                                                                                ".*_stats\\.csv$" 
+ [1] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_3day_rep1_stats.csv"  
+ [2] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_3day_rep2_stats.csv"  
+ [3] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_3day_rep3_stats.csv"  
+ [4] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_5day_rep1_stats.csv"  
+ [5] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_5day_rep2_stats.csv"  
+ [6] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Control_5day_rep3_stats.csv"  
+ [7] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_3day_rep1_stats.csv"
+ [8] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_3day_rep2_stats.csv"
+ [9] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_3day_rep3_stats.csv"
+[10] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_5day_rep1_stats.csv"
+[11] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_5day_rep2_stats.csv"
+[12] "/compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/05_LAP_PAS/Treatment_5day_rep3_stats.csv"
+[Step 7] Generating bigWig tracks...
+  [bw] PASS_bw_LAP24 / Control_3day_rep1
+  [bw] PASS_bw_LAP24 / Control_3day_rep2
+  [bw] PASS_bw_LAP24 / Control_3day_rep3
+  [bw] PASS_bw_LAP24 / Control_5day_rep1
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Control_5day_rep2
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Control_5day_rep3
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Treatment_3day_rep1
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Treatment_3day_rep2
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Treatment_3day_rep3
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Control_5day_rep2.minus.bedgraph.normalized
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Treatment_5day_rep1
+  [bw] PASS_bw_LAP24 / Treatment_5day_rep2
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24 / Treatment_5day_rep3
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_3day_rep3.minus.bedgraph.normalized
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep1.minus.bedgraph.normalized
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Control_3day_rep1
+  [bw] PASS_bw_LAP24_positon / Control_3day_rep2
+  [bw] PASS_bw_LAP24_positon / Control_3day_rep3
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24/Treatment_5day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Control_5day_rep1
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Control_5day_rep2
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Control_5day_rep3
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Treatment_3day_rep1
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Treatment_3day_rep2
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep2.minus.bedgraph.normalized
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Control_5day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Treatment_3day_rep3
+  [bw] PASS_bw_LAP24_positon / Treatment_5day_rep1
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Treatment_5day_rep2
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_positon / Treatment_5day_rep3
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_3day_rep1
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_3day_rep2
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_3day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_3day_rep3
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20327886; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_5day_rep1
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 16481336; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_5day_rep2
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 18444972; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_3day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Control_5day_rep3
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_positon/Treatment_5day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_3day_rep1
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20407142; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_3day_rep2
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 17549113; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep3.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_3day_rep3
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 21381055; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Control_5day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_5day_rep1
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 20069028; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep1.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_5day_rep2
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 17768433; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep2.minus.bedgraph.normalized
+  [bw] PASS_bw_LAP24_PAS / Treatment_5day_rep3
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 16916312; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep1.minus.bedgraph.normalized
+  [bw] mapped_read / Control_3day_rep1
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 23162857; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_3day_rep3.minus.bedgraph.normalized
+  [bw] mapped_read / Control_3day_rep2
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 19050802; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep2.minus.bedgraph.normalized
+  [bw] mapped_read / Control_3day_rep3
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 39109568; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/PASS_bw_LAP24_PAS/Treatment_5day_rep3.minus.bedgraph.normalized
+  [bw] mapped_read / Control_5day_rep1
+#Total mapped reads number = 24442948; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 24442948; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep2.minus.bedgraph.normalized
+  [bw] mapped_read / Control_5day_rep2
+#Total mapped reads number = 30983447; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 27614350; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 30983447; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep1.minus.bedgraph.normalized
+#Total mapped reads number = 27614350; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_3day_rep3.minus.bedgraph.normalized
+  [bw] mapped_read / Control_5day_rep3
+  [bw] mapped_read / Treatment_3day_rep1
+#Total mapped reads number = 29933904; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 29933904; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep1.minus.bedgraph.normalized
+  [bw] mapped_read / Treatment_3day_rep2
+#Total mapped reads number = 32691161; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 32691161; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep2.minus.bedgraph.normalized
+#Total mapped reads number = 26207162; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 26207162; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Control_5day_rep3.minus.bedgraph.normalized
+  [bw] mapped_read / Treatment_3day_rep3
+  [bw] mapped_read / Treatment_5day_rep1
+#Total mapped reads number = 30881868; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 30881868; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep1.minus.bedgraph.normalized
+  [bw] mapped_read / Treatment_5day_rep2
+#Total mapped reads number = 25264510; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 25264510; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep2.minus.bedgraph.normalized
+  [bw] mapped_read / Treatment_5day_rep3
+#Total mapped reads number = 25628139; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep1.plus.bedgraph.normalized
+#Total mapped reads number = 25628139; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep1.minus.bedgraph.normalized
+#Total mapped reads number = 29210687; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep2.plus.bedgraph.normalized
+#Total mapped reads number = 33856900; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 33856900; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_3day_rep3.minus.bedgraph.normalized
+#Total mapped reads number = 29210687; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep2.minus.bedgraph.normalized
+#Total mapped reads number = 72678435; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep3.plus.bedgraph.normalized
+#Total mapped reads number = 72678435; Normalized bedgraph coverage to read counts per million total read:
+#write /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/06_bigwig/mapped_read/Treatment_5day_rep3.minus.bedgraph.normalized
+
+=== 3-REAP pipeline complete! ===

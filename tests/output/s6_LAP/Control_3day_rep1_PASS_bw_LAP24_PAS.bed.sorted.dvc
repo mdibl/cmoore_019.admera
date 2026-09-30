@@ -1,0 +1,5 @@
+outs:
+- md5: 5c63be57578d12f93e59b40ed036ce02
+  size: 952280088
+  hash: md5
+  path: Control_3day_rep1_PASS_bw_LAP24_PAS.bed.sorted

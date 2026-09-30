@@ -1,0 +1,91 @@
+=== 3-REAP pipeline ===
+    Project : /compbio/analysis/ClaireMoore/cmoore_019.admera
+    Output  : /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP
+    Samples : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/sample.txt
+    PolyADB : /compbio/analysis/ClaireMoore/cmoore_019.admera/data/PolyA_DB_v4.1/hg38.PAS.main.tsv
+
+[Step 2] Adapter / polyA trimming...
+  [R1 skip] Control_3day_rep2
+  [R1 skip] Control_3day_rep3
+  [R1 skip] Control_3day_rep1
+  [R1 skip] Control_5day_rep1
+  [R2 skip] Control_3day_rep2
+  [R2 skip] Control_3day_rep3
+  [R2 skip] Control_3day_rep1
+  [R2 skip] Control_5day_rep1
+  [R1 skip] Control_5day_rep2
+  [R1 skip] Control_5day_rep3
+  [R2 skip] Control_5day_rep2
+  [R2 skip] Control_5day_rep3
+  [R1 skip] Treatment_3day_rep2
+  [R1 skip] Treatment_3day_rep1
+  [R2 skip] Treatment_3day_rep1
+  [R2 skip] Treatment_3day_rep2
+  [R1 skip] Treatment_3day_rep3
+  [R2 skip] Treatment_3day_rep3
+  [R1 skip] Treatment_5day_rep1
+  [R2 skip] Treatment_5day_rep1
+  [R1 skip] Treatment_5day_rep2
+  [R2 skip] Treatment_5day_rep2
+  [R1] Treatment_5day_rep3
+3-REAP_workflow.sh: line 76: cutadapt: command not found
+3-REAP_workflow.sh: line 74: cutadapt: command not found
+3-REAP_workflow.sh: line 78: cutadapt: command not found
+3-REAP_workflow.sh: line 80: cutadapt: command not found
+  [R2] Treatment_5day_rep3
+3-REAP_workflow.sh: line 92: cutadapt: command not found
+3-REAP_workflow.sh: line 94: cutadapt: command not found
+3-REAP_workflow.sh: line 97: python: command not found
+[Step 3] Repair pairs + STAR alignment...
+  [skip] Control_3day_rep2: already aligned
+  [skip] Control_3day_rep1: already aligned
+  [skip] Control_3day_rep3: already aligned
+  [skip] Control_5day_rep1: already aligned
+  [skip] Control_5day_rep2: already aligned
+  [skip] Control_5day_rep3: already aligned
+  [skip] Treatment_3day_rep1: already aligned
+  [skip] Treatment_3day_rep2: already aligned
+  [skip] Treatment_5day_rep1: already aligned
+  [align] Treatment_5day_rep3
+  [skip] Treatment_3day_rep3: already aligned
+  [skip] Treatment_5day_rep2: already aligned
+3-REAP_workflow.sh: line 129: repair.sh: command not found
+3-REAP_workflow.sh: line 137: STAR: command not found
+[Step 3] Compiling alignment statistics...
+[Step 4] Deduplication...
+  [skip] Control_3day_rep1: dedup link exists
+  [skip] Control_3day_rep2: dedup link exists
+  [skip] Control_3day_rep3: dedup link exists
+  [skip] Control_5day_rep1: dedup link exists
+  [skip] Control_5day_rep3: dedup link exists
+  [skip] Control_5day_rep2: dedup link exists
+  [skip] Treatment_3day_rep1: dedup link exists
+  [skip] Treatment_3day_rep2: dedup link exists
+  [skip] Treatment_3day_rep3: dedup link exists
+  [skip] Treatment_5day_rep1: dedup link exists
+  [skip] Treatment_5day_rep2: dedup link exists
+3-REAP_workflow.sh: line 191: samtools: command not found
+[Step 5] BAM → BED (R2 reads)...
+  [skip] Control_3day_rep1: BED exists
+  [skip] Control_3day_rep2: BED exists
+  [skip] Control_3day_rep3: BED exists
+  [skip] Control_5day_rep1: BED exists
+  [skip] Control_5day_rep2: BED exists
+  [skip] Control_5day_rep3: BED exists
+  [skip] Treatment_3day_rep1: BED exists
+  [skip] Treatment_3day_rep2: BED exists
+  [skip] Treatment_3day_rep3: BED exists
+  [skip] Treatment_5day_rep1: BED exists
+  [skip] Treatment_5day_rep2: BED exists
+  [bed] Treatment_5day_rep3
+3-REAP_workflow.sh: line 232: bedtools: command not found
+3-REAP_workflow.sh: line 230: samtools: command not found
+  Read counts per sample:
+   30983447 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep1.dedup_R2.sorted.bed
+   24442948 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep2.dedup_R2.sorted.bed
+   27614350 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_3day_rep3.dedup_R2.sorted.bed
+   29933904 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep1.dedup_R2.sorted.bed
+   32691161 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep2.dedup_R2.sorted.bed
+   26207162 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Control_5day_rep3.dedup_R2.sorted.bed
+   30881868 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_3day_rep1.dedup_R2.sorted.bed
+   25264510 /compbio/data/ClaireMoore/cmoore_019.admera/processed/3_REAP/04_bed/Treatment_3day_rep2.dedup_R2.sorted.bed

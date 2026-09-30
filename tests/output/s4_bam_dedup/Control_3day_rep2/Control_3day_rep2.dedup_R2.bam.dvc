@@ -1,0 +1,5 @@
+outs:
+- md5: 8153a62b3711f17bf144cc70f5678934
+  size: 1627350513
+  hash: md5
+  path: Control_3day_rep2.dedup_R2.bam
