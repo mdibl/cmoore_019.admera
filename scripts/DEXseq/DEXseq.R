@@ -127,7 +127,8 @@ PCA_LABEL_COL <- "replicate" # colData column to use as point labels (NULL = non
 
 # Genes to plot APA genome-map figures for; set to character(0) to skip
 # Cherry picked genes (by me):
-GENES_OF_INTEREST <- c("PCF11", "TAB2", "ICAM1", "MCAM", "RCOR3", "OTUD7B", "PCNX4", "LATS2", "CENPA")
+GENES_OF_INTEREST <- c("AKT2", "PAK1", "TGFBI", "IL20RA", "JHY", "VHL", "FUT4", "VMP1", "NAV1", "NFYA", "FZD2", "FZD3", "DVL3", 
+                       "MAP3K7", "CD44", "APC", "FOSL1", "WNT5A", "PRKCA", "NR2C2", "C4orf36", "CDK9", "AP1S1", "B4GAT1", "MAFK", "APMAP")
 
 # RUVseq batch correction
 #   USE_RUV <- TRUE  when replicates cluster by batch in PCA rather than condition.
