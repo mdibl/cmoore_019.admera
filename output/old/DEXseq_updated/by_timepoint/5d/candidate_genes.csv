@@ -1,0 +1,2 @@
+groupID,gene,featureID,meanUsage_change,padj,delta_wUTR,delta_RED,max_abs_delta_RED,max_delta_RED_featureID,perGeneQ,dir_consensus,dominant_featureID
+ZNF26,ZNF26,chr12_+_133012567,0.42750078100061,0.00699352674509998,3120.21200695001,-3.02230299673405,3.02230299673405,chr12_+_133012567,0.00754516883306719,Decreased_only,chr12_+_133012567

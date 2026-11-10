@@ -1,0 +1,5 @@
+outs:
+- md5: ab0541165fda0a9046014ea4b543df25
+  size: 84997718
+  hash: md5
+  path: dexseq_by_plasmid_Control.rds
